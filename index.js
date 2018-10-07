@@ -29,7 +29,7 @@ function viewCart() {
       return `In your cart, you have ${itemPrice}.`
     }
     else if (cart.length === 2){
-      return `In your cart, you have ${itemPrice[0]} and ${itemPrice[1]}.`
+      return `In your cart, you have ${itemPrice[0]}, and ${itemPrice[1]}.`
     }
     else {
       string = `In your cart, you have `;
