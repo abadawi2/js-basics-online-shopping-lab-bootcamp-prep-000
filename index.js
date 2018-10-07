@@ -36,7 +36,7 @@ function viewCart() {
       for (var i = cart.length; i < cart.length-1; i ++){
        string = string + itemPrice[i];
       }
-      return string + `and ${item.price[itemPrice.length - 1]}.`;
+      return string + `and ${itemPrice[itemPrice.length - 1]}.`;
     }
 }
 
