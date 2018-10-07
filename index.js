@@ -32,8 +32,8 @@ function viewCart() {
       return `In your cart, you have ${itemPrice[0]}, and ${itemPrice[1]}.`
     }
     else {
-      for (var i = cart.length; i < cart.length - 1; i ++){
       var string = `In your cart, you have `
+      for (var i = cart.length; i < cart.length - 1; i ++){
        string = string + itemPrice[i];
       }
       return string + `and ${itemPrice[itemPrice.length - 1]}.`;
