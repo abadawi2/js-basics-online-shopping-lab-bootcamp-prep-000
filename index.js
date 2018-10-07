@@ -34,7 +34,7 @@ function viewCart() {
     else {
       var string = `In your cart, you have `;
       for (var i = cart.length; i < cart.length - 1; i ++){
-       string = string + itemPrice[i];
+       var string = string + itemPrice[i];
       }
       return string + `and ${itemPrice[itemPrice.length - 1]}.`;
     }
