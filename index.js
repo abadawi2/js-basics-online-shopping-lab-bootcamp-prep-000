@@ -49,9 +49,9 @@ function total() {
 }
 
 function removeFromCart(item) {
-  let itemPosition = item[i];
-  if (itemName === item) {
-    cart.splice (itemPosition,1);
+  for (let i = 0, i < cart.length, i++){
+    if (cart[i].itemName === item)
+    cart.splice (i,1);
     return cart;
   }
   else {
